@@ -1,0 +1,26 @@
+{
+  "name": "restar-kit",
+  "version": "1.0.0",
+  "description": "Restar app boilplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperhsiung/restar-kit.git"
+  },
+  "keywords": [
+    "restar",
+    "boilplate"
+  ],
+  "author": "Cooper Hsiung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cooperhsiung/restar-kit/issues"
+  },
+  "homepage": "https://github.com/cooperhsiung/restar-kit#readme",
+  "dependencies": {
+    "restar": "^1.1.2"
+  }
+}
