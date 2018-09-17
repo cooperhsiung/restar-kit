@@ -1,7 +1,7 @@
 const Restar = require("restar");
 const timer = require("./middlewares/timer");
-const userService = require("./services/user");
-const bookService = require("./services/book");
+const userRouter = require("./routes/user");
+const bookRouter = require("./routes/book");
 
 const app = new Restar();
 
@@ -9,11 +9,11 @@ const app = new Restar();
 app.use(timer());
 
 // routes
-app.get("/hello", userService.hello);
-app.get("/sleep", userService.sleep);
+app.get("/hello", userRouter.hello);
+app.get("/sleep", userRouter.sleep);
 
-app.get("/all", bookService.all);
-app.get("/query", bookService.query);
+app.get("/all", bookRouter.all);
+app.get("/query", bookRouter.query);
 
 module.exports = app;
 if (!module.parent) app.listen(3000);
