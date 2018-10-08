@@ -1,6 +1,6 @@
 # restar-kit
 
-Restar app boilplate.
+Restar app boilerplate.
 
 ## Setup
 

@@ -1,7 +1,7 @@
 {
   "name": "restar-kit",
   "version": "1.0.0",
-  "description": "Restar app boilplate.",
+  "description": "Restar app boilerplate.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
