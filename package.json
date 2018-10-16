@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/cooperhsiung/restar-kit#readme",
   "dependencies": {
-    "restar": "^1.1.2"
+    "restar": "latest"
   }
 }
