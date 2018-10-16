@@ -17,5 +17,9 @@ app.post('/login', userRouter.login);
 app.get('/all', bookRouter.all);
 app.get('/query', bookRouter.query);
 
+app.catch(e => () => {
+  return { code: -1, msg: 'oooop err' };
+});
+
 module.exports = app;
 if (!module.parent) app.listen(3000);
